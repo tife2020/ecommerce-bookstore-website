@@ -1,0 +1,29 @@
+.signupcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.signupcont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 0;
+    width: 90%;
+      max-width: 500px;
+
+}
+
+.signupcont img{
+    width: 100%;
+    
+}
+
+#hero4cat{
+    background-color: #191c21f5;
+    width: 30%;
+  }

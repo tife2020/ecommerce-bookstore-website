@@ -1,0 +1,18 @@
+.profile .fas{
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 25px;
+    transition: color 400ms ease-in-out;
+
+}
+
+.cart .fas{
+    margin-left: 30px;
+    margin-right: 10px;
+    font-size: 15px;
+    transition: color 400ms ease-in-out;
+}
+
+.fas:hover{
+    color: gray;
+}

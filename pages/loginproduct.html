@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="../css/products.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <!-- <link href="../fontawesome/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet"> -->
+    <script src="https://kit.fontawesome.com/b5d68417cd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="../css/loginoprodut.css">
+    <!-- <script src="../js/project.js"></script> -->
+    <script src="../js/loginproduct.js"></script>
+    <script src="../js/scroll.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+</head>
+
+<body class="animate__animated animate__fadeIn animate__slower">
+    <div class="mobile">
+
+        <!-- Nav bar Start-->
+        <div class="containerNavbar dison" id='containerNavbar'>
+
+            <div class="navbar">
+                <div><a href="../index.html"><img src="../images/1x/Asset4.png" alt="" class="logo"></a></div>
+
+                <div class="mobilenavlinksright" id="categoriespie">
+                    <div>
+                        <div class="thover">All Categories <i class="fas fa-caret-down"></i></div>
+                    </div>
+
+                    <div class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="profile">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <!-- <div class="menu" id="hamburger">
+                        <i class="fas fa-bars"></i>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Finished Nav bar-->
+
+        <!-- pie menu -->
+        <div class="piemenu disoff" id="piemenu">
+
+            <div class="top " id="hamburgerclose"><i class="fas fa-times "></i></div>
+            <div class="">
+                <a class="pielinks" href="login.html">Login</a>
+                <a class="pielinks" href="signup.html">Sign up</a>
+                <a class="pielinks" href="../index.html#featured">Featured books</a>
+                <a class="pielinks" href="../index.html#otherbooks">Other books</a>
+            </div>
+            <h3 class="pieh3">Unlimited access to 100+ Books. New Books added every month.</h3>
+            <div class="signuppiecont">
+
+                <a class="signuppie" href="signup.html">Sign up</a>
+            </div>
+
+        </div>
+        <!-- Finished pie menu -->
+
+        <!-- category drop down -->
+        <div class="categoriespie disoff" id="categories">
+            <div class="topcat" id="categoriesclose"><i class="fas fa-times"></i></div>
+
+            <a href="#financebtn" class="catpieoptions" id="financecatbtn">Finance</a>
+            <a href="#innovationbtn" class="catpieoptions" id="innovationcatbtn">Innovation</a>
+            <a href="#lifestylebtn" class="catpieoptions" id="lifestylecatbtn">Lifestyle</a>
+            <a class="catpieoptions" href="../index.html#featured">Featured books</a>
+            <a class="catpieoptions" href="../index.html#otherbooks">Other books</a>
+        </div>
+        <!-- Finished category drop down -->
+    </div>
+
+    <div class="desktop">
+
+        <!-- Navber starts -->
+
+        <div class="navbarcontdesk">
+            <div class="navbarDesk">
+
+                <div><a href="../index.html"><img src="../images/1x/Asset 3.png" alt="" class="logodesk"></a></div>
+
+                <div class="navlinksmid">
+                    <button class="allcat mid thover" id="catcatbtn">All Categories <i class="fas fa-caret-down"></i></button>
+                    <div class="hero4cat animate__animated disoff" id="hero4cat">
+    
+                        <div class="Categories">
+                          <a href="product.html#financebtn" class="catoptionscat">Finance</a>
+                          <a href="product.html#innovationbtn" class="catoptionscat">Innovation</a>
+                          <a href="product.html#lifestylebtn" class="catoptionscat">Lifestyle</a>
+                        </div>
+                        
+                    </div>
+                    <div class="mid thover"><i class="fas fa-search"></i>Search</div>
+                </div>
+
+                <div class="navlinksright">
+                    <a href="signup.html" class="right thover">Sign in</a>
+                    <a href="login.html" class="right thover">Login in</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Finished Navber  -->
+    </div>
+
+
+    <!-- hero1 start -->
+    <div class="hero1product">
+        <img src="../images/limited.svg" alt="">
+        <p class="quote">“Reading is the sole means by which we slip, involuntarily, often helplessly, into another’s
+            skin, another’s voice, another’s soul.” – Joyce Carol Oates</p>
+        <p>One time 50% discount...</p>
+        <a href="#optionprod" id="getoffer">Get offer!</a>
+    </div>
+    <!-- hero1 finished -->
+
+    <!-- products -->
+    <div class="productcont animate__animated" id="productcont">
+
+        <div class="optionprod" id="optionprod">
+            <button class="options options1" id="financebtn">Finance</button>
+            <button class="options" id="innovationbtn">Innovation</button>
+            <button class="options" id="lifestylebtn">Lifestyle</button>
+        </div>
+
+        <!-- Finance -->
+        <div class='cardcont animate__animated finance ' id="cardcontfinance">
+
+            <div class="card">
+                <img src="../images/books/cd.png" alt="" style="background-color: rgb(197, 195, 195);">
+                <div class="content">
+                    <p class="title">Every Candlestick Pattern Statistics -- Pattern WIzard</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 8,500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+
+            <div class="card" id="card">
+                <img src="../images/books/morganhousel.jpg" alt="">
+                <div class="content" id="content">
+                    <p class="title">The Psychology of Money -- Morgan Housel</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 3,500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+
+
+            <div class="card" id="card">
+                <img src="../images/books/danielkahneman.jpg" alt="">
+                <div class="content" id="content">
+                    <p class="title">Thinking Fast and Slow -- Daniel Kahneman</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 2,000</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+
+
+            <div class="card">
+                <img src="../images/books/melanie-deziel-21zolRrolp0-unsplash.jpg" alt="">
+                <div class="content">
+                    <p class="title">The Content Fuel Framework -- Melanie Deziel</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 2,500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../images/books/ani-kolleshi-4qcvRJCERBU-unsplash.jpg" alt="">
+                <div class="content">
+                    <p class="title">Just Shut Up and Do It -- Brain Tracy</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 4,500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../images/books/mattRidley.jpg" alt="">
+                <div class="content">
+                    <p class="title">How Innovation Works -- Matt Ridley</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>7
+                    <p class="price">&#8358 1,500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../images/books/charlesduhigg.jpg" alt="">
+                <div class="content">
+                    <p class="title">Power of Habits -- Charles Duhigg</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 2,500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../images/books/jon-tyson-QoFARJlqy6k-unsplash.jpg" alt="">
+                <div class="content">
+                    <p class="title">Beautiful Resistance -- John Tyson</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 2500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card" id="card">
+                <img src="../images/books/thought-catalog-V5BGaJ0VaLU-unsplash.jpg" alt="">
+                <div class="content" id="content">
+                    <p class="title">101 Essays That Will Change The Way You Think -- Brianna Wiest</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 2500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- innovation -->
+        <div class='cardcont animate__animated innovation disoff' id="cardcontinnovation">
+
+            <div class="card">
+                <img src="../images/books/melanie-deziel-21zolRrolp0-unsplash.jpg" alt="">
+                <div class="content">
+                    <p class="title">The Content Fuel Framework -- Melanie Deziel</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 2,500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../images/books/ani-kolleshi-4qcvRJCERBU-unsplash.jpg" alt="">
+                <div class="content">
+                    <p class="title">Just Shut Up and Do It -- Brain Tracy</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 4,500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../images/books/mattRidley.jpg" alt="">
+                <div class="content">
+                    <p class="title">How Innovation Works -- Matt Ridley</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>7
+                    <p class="price">&#8358 1,500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="../images/books/cd.png" alt="" style="background-color: rgb(197, 195, 195);">
+                <div class="content">
+                    <p class="title">Every Candlestick Pattern Statistics -- Pattern WIzard</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 8,500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+
+
+            <div class="card" id="card">
+                <img src="../images/books/morganhousel.jpg" alt="">
+                <div class="content" id="content">
+                    <p class="title">The Psychology of Money -- Morgan Housel</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 3,500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+
+
+            <div class="card" id="card">
+                <img src="../images/books/danielkahneman.jpg" alt="">
+                <div class="content" id="content">
+                    <p class="title">Thinking Fast and Slow -- Daniel Kahneman</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 2,000</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="../images/books/charlesduhigg.jpg" alt="">
+                <div class="content">
+                    <p class="title">Power of Habits -- Charles Duhigg</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 2,500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../images/books/jon-tyson-QoFARJlqy6k-unsplash.jpg" alt="">
+                <div class="content">
+                    <p class="title">Beautiful Resistance -- John Tyson</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 2500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card" id="card">
+                <img src="../images/books/thought-catalog-V5BGaJ0VaLU-unsplash.jpg" alt="">
+                <div class="content" id="content">
+                    <p class="title">101 Essays That Will Change The Way You Think -- Brianna Wiest</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 2500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Lifestyle -->
+        <div class='cardcont animate__animated lifestyle disoff' id="cardcontlifestyle">
+
+
+            <div class="card">
+                <img src="../images/books/charlesduhigg.jpg" alt="">
+                <div class="content">
+                    <p class="title">Power of Habits -- Charles Duhigg</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 2,500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../images/books/jon-tyson-QoFARJlqy6k-unsplash.jpg" alt="">
+                <div class="content">
+                    <p class="title">Beautiful Resistance -- John Tyson</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 2500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card" id="card">
+                <img src="../images/books/thought-catalog-V5BGaJ0VaLU-unsplash.jpg" alt="">
+                <div class="content" id="content">
+                    <p class="title">101 Essays That Will Change The Way You Think -- Brianna Wiest</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 2500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="../images/books/melanie-deziel-21zolRrolp0-unsplash.jpg" alt="">
+                <div class="content">
+                    <p class="title">The Content Fuel Framework -- Melanie Deziel</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 2,500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../images/books/ani-kolleshi-4qcvRJCERBU-unsplash.jpg" alt="">
+                <div class="content">
+                    <p class="title">Just Shut Up and Do It -- Brain Tracy</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 4,500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../images/books/mattRidley.jpg" alt="">
+                <div class="content">
+                    <p class="title">How Innovation Works -- Matt Ridley</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>7
+                    <p class="price">&#8358 1,500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="../images/books/cd.png" alt="" style="background-color: rgb(197, 195, 195);">
+                <div class="content">
+                    <p class="title">Every Candlestick Pattern Statistics -- Pattern WIzard</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 8,500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card" id="card">
+                <img src="../images/books/morganhousel.jpg" alt="">
+                <div class="content" id="content">
+                    <p class="title">The Psychology of Money -- Morgan Housel</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 3,500</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="card" id="card">
+                <img src="../images/books/danielkahneman.jpg" alt="">
+                <div class="content" id="content">
+                    <p class="title">Thinking Fast and Slow -- Daniel Kahneman</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                    <p class="price">&#8358 2,000</p>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+
+    <div class="footer hero" id="footerprod">
+
+        <div class="container">
+
+            <div class="footerlinks">
+                <a href="#" class="flink">About us</a>
+                <a href="#" class="flink">Contact us</a>
+            </div>
+
+            <div class="social">
+
+                <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+
+                <a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+
+                <a href="https://www.instagram.com"><i class="fab fa-instagram-square"></i></a>
+
+            </div>
+            <div class="footerLinks">
+                <a href="terms.html" class="fterms">Terms of Service</a>
+                <a href="terms.html" class="fterms">Privacy and policy</a>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Finished footer -->
+
+</body>
+
+</html>

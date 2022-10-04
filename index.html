@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="css/index.css">
+    <!-- <link href="fontawesome/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet"> -->
+    <script src="https://kit.fontawesome.com/b5d68417cd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="js/project.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+
+</head>
+
+<body class="animate__animated animate__fadeIn animate__slower">
+
+
+    <div class="mobile">
+
+        <!-- Nav bar Start-->
+        <div class="containerNavbar dison" id='containerNavbar'>
+
+            <div class="navbar">
+                <div><a href="index.html"><img src="images/1x/Asset4.png" alt="" class="logo"></a></div>
+
+                <div class="mobilenavlinksright" id="categoriespie">
+                    <div>
+                        <div class="thover">All Categories <i class="fas fa-caret-down"></i></div>
+                    </div>
+
+                    <div class="menu" id="hamburger">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Finished Nav bar-->
+
+        <!-- pie menu -->
+        <div class="piemenu disoff" id="piemenu">
+
+            <div class="top " id="hamburgerclose"><i class="fas fa-times "></i></div>
+            <div class="">
+                <a class="pielinks" href="pages/login.html">Login</a>
+                <a class="pielinks" href="pages/signup.html">Sign up</a>
+                <a class="pielinks" href="#featured" id="pielinksfeatured">Featured books</a>
+                <a class="pielinks" href="#otherbooks" id="pielinksother">Other books</a>
+            </div>
+            <h3 class="pieh3">Unlimited access to 100+ Books. New Books added every month.</h3>
+            <div class="signuppiecont">
+
+                <a class="signuppie pulse" href="pages/signup.html">Sign up</a>
+            </div>
+
+        </div>
+        <!-- Finished pie menu -->
+
+        <!-- category drop down -->
+        <div class="categoriespie disoff" id="categories">
+            <div class="topcat" id="categoriesclose"><i class="fas fa-times"></i></div>
+
+            <a href="pages/product.html#financebtn" class="catpieoptions" id="catpieoptionsfinance">Finance</a>
+            <a href="pages/product.html#innovationbtn" class="catpieoptions">Innovation</a>
+            <a href="pages/product.html#lifestylebtn" class="catpieoptions">Lifestyle</a>
+        </div>
+        <!-- Finished category drop down -->
+
+        <!-- Hero 1 Sign Up-->
+
+        <div class="hero1 hero">
+            <img src="images/1viewpic.jpg" alt="" class="img1">
+            <div class="hero1Cont heroCont">
+                <img src="images/limited.svg" alt="" class="img2">
+                <p>...Best sellers at your reach...</p>
+
+                <div class="signup">
+                    <form action="pages/login.html" method="post">
+                        <input type="email" class="hero1textf" placeholder="Your email address" id="email" required>
+                        <input type="password" class="hero1textf" placeholder="Your password. Atleast 8 characters"
+                            id="password" required>
+                        <input type="submit" value="Sign up" class="submitbtn" id="submitbtn">
+                        <div class="checkalign">
+                            <input type="checkbox" class="checkbtn" name="" value="" id="updatem"> <label
+                                for="updatem">Keep me up to date on new offers </label>
+                        </div>
+                        <p>By signing up with your email, you agree to our <a class="fterms" href="#">Terms of
+                                Service</a> and <a class="fterms" href="#">Privacy Policy</a></p>
+
+                        <p>Already own an account? <a class='fterms' href="/pages/login.html">login</a></p>
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- Finish Hero 1 Sign up-->
+
+
+        <!-- Hero 2  book-->
+
+        <div class="hero2 hero">
+
+            <h3 class="lrpadding">Unlimited access to 100+ Books. New Books added every month.</h3>
+            <!-- img -->
+            <div class="lrpadding">
+                <div class="c">
+                    <div class="contimgh2">
+                        <img src="images/books/mattRidley.jpg" alt="" srcset="" class="imgh2">
+                        <div class="new">new</div>
+                    </div>
+                    <div class="lrpadding">
+                        <p class="bookdetails">How Innovation Works -- Matt Ridley</p>
+                        <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit
+                            amet
+                            consectetur, adipisicing elit.</p>
+                    </div>
+                    <div class="lrpadding priceFlex">
+                        <p class="price">&#8358 1,500</p>
+                    </div>
+                    <div class="lrpadding addcartcont">
+                        <a href="#" class=" submitbtn1">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- img  end-->
+
+
+        </div>
+
+        <!-- Finished Hero2 -->
+
+
+        <!-- Hero 3 Start-->
+
+        <div class="hero3 hero " id="hero3cont">
+            <div class="lrpadding">
+                <h3>Explore other books</h3>
+                <div class="optionsflex">
+                    <button class="options1 options" id="featured">Featured books</button>
+                    <button class="options" id="otherbooks">Other Books</button>
+                </div>
+            </div>
+            <div class="animate__animated lrpadding" id="hero3bookscont">
+                <!-- img1 -->
+                <div class="c">
+                    <div class="contimgh2">
+                        <img src="images/books/morganhousel.jpg" alt="" srcset="" class="imgh2">
+                        <div class="new">new</div>
+                    </div>
+                    <div class="lrpadding">
+                        <p class="bookdetails">The Psychology of Money -- Morgan Housel</p>
+                        <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit
+                            amet
+                            consectetur, adipisicing elit.</p>
+                    </div>
+                    <div class="lrpadding priceFlex">
+                        <p class="price">&#8358 3,000</p>
+                    </div>
+                    <div class="lrpadding addcartcont">
+                        <a href="#" class=" submitbtn1">Add to Cart</a>
+                    </div>
+                </div>
+                <!-- img1 ends -->
+
+                <!-- img2 -->
+                <div class="c">
+
+                    <div class="contimgh2">
+                        <img src="images/books/mattRidley.jpg" alt="" srcset="" class="imgh2">
+                        <div class="new">new</div>
+                    </div>
+                    <div class="lrpadding">
+                        <p class="bookdetails">How Innovation Works -- Matt Ridley</p>
+                        <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit
+                            amet
+                            consectetur, adipisicing elit.</p>
+                    </div>
+                    <div class="lrpadding priceFlex">
+                        <p class="price">&#8358 1,500</p>
+                    </div>
+                    <div class="lrpadding addcartcont">
+                        <a href="#" class=" submitbtn1 ">Add to Cart</a>
+                    </div>
+                </div>
+                <!-- img2 ends -->
+            </div>
+        </div>
+
+        <div class="hero animate__animated disoff lrpadding" id="hero3others">
+            <!-- img3 -->
+            <div class="c">
+
+                <div class="contimgh2">
+                    <img src="images/books/danielkahneman.jpg" alt="" srcset="" class="imgh2">
+                    <div class="new">new</div>
+                </div>
+                <div class="lrpadding">
+                    <p class="bookdetails">Think Fast And Slow -- Daniel Kahneman</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                </div>
+                <div class="lrpadding priceFlex">
+                    <p class="price">&#8358 2,000</p>
+                </div>
+                <div class="lrpadding addcartcont">
+                    <a href="#" class=" submitbtn1">Add to Cart</a>
+                </div>
+            </div>
+            <!-- img3 ends -->
+
+            <!-- img4 -->
+            <div class="c">
+
+                <div class="contimgh2">
+                    <img src="images/books/charlesduhigg.jpg" alt="" srcset="" class="imgh2">
+                    <div class="new">new</div>
+                </div>
+                <div class="lrpadding">
+                    <p class="bookdetails">The Power Of Habits -- Charles Duhigg</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.</p>
+                </div>
+                <div class="lrpadding priceFlex">
+                    <p class="price">&#8358 2,500</p>
+                </div>
+                <div class="lrpadding addcartcont">
+                    <a href="#" class=" submitbtn1 ">Add to Cart</a>
+                </div>
+            </div>
+            <!-- img4 ends -->
+        </div>
+
+        <!-- FInished Hero 3 -->
+
+
+
+        <!-- hero 4 start-->
+
+        <div class="hero4">
+
+            <h3>Choose a category to explore</h3>
+
+            <div class="Categories">
+                <a href="pages/product.html#financebtn" class="catoptions">Finance</a>
+                <a href="pages/product.html#innovationbtn" class="catoptions">Innovation</a>
+                <a href="pages/product.html#lifestylebtn" class="catoptions">Lifestyle</a>
+            </div>
+
+        </div>
+
+        <!-- Finished hero 4 -->
+
+        <!-- footer -->
+        <div class="footer hero lrpadding">
+
+            <div class="footerlinks">
+                <a href="#" class="flink">About us</a>
+                <a href="#" class="flink">Contact us</a>
+            </div>
+
+            <div class="social">
+
+                <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+
+                <a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+
+                <a href="https://www.instagram.com"><i class="fab fa-instagram-square"></i></a>
+
+            </div>
+            <div class="footerLinks">
+                <a href="pages/terms.html" class="fterms" target=" ">Terms of Service</a>
+                <a href="pages/terms.html" class="fterms" target=" ">Privacy and policy</a>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- desktop -->
+
+    <div class="desktop">
+
+        <!-- Navber starts -->
+
+        <div class="navbarcontdesk">
+            <div class="navbarDesk ">
+
+                <div><a href="index.html"><img src="images/1x/Asset 3.png" alt="" class="logodesk"></a></div>
+
+                <div class="navlinksmid">
+                    <button class="allcat mid thover" id="catcatbtn">All Categories <i class="fas fa-caret-down"></i></button>
+                    <div class="hero4cat animate__animated disoff" id="hero4cat">
+
+                        <div class="Categories">
+                          <a href="pages/product.html#financebtn" class="catoptionscat">Finance</a>
+                          <a href="pages/product.html#innovationbtn" class="catoptionscat">Innovation</a>
+                          <a href="pages/product.html#lifestylebtn" class="catoptionscat">Lifestyle</a>
+                        </div>
+                        
+                    </div>
+                    <button class="allcat mid thover"><i class="fas fa-search"></i>Search</button>
+                </div>
+
+                <div class="navlinksright">
+                    <div class="right "><a class="thover" href="pages/signup.html">Sign up</a></div>
+                    <div class="right thover"><a class="thover" href="pages/login.html">Login in</a></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Finished Navber  -->
+
+
+        <div class="hero1desk hero">
+
+            <div class="hero1signup">
+                <img src="images/limited.svg" alt="" class="img2">
+                <p class="bestp">...Best sellers at your reach...</p>
+                <div class="signup lrpadding">
+                    <form action="pages/login.html">
+                        <input type="email" class="hero1textf" placeholder="Your email address" id="emaildesk" required>
+                        <input type="password" class="hero1textf" placeholder="Your password. Atleast 8 characters"
+                            id="passworddesk" required>
+                        <input type="submit" value="Sign up" class="submitbtn" id="submitbtndesk">
+                        <div class="checkalign">
+                            <input type="checkbox" class="checkbtn" name="" id="update"><label for="update">Keep me up
+                                to date on new offers </label>
+                        </div>
+                        <p>By signing up with your email, you agree to our <a class="fterms" href="pages/terms.html">Terms of Service</a> and <a class="fterms"
+                                href="pages/terms.html">Privacy Policy</a></p>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="hero1img">
+                <img src="images/1viewpic.jpg" alt="">
+            </div>
+
+        </div>
+        <!-- Finished Hero 1 Desk -->
+
+        <!-- Start Hero 2 Desk -->
+
+        <div class="hero2desk hero container">
+
+            <p class="hero2deskp">Unlimited access to 100+ Books. New Books added every month.</p>
+            <!-- <div class="productcont"> -->
+
+            <div class="prodctcardcontdesk">
+                <img class="imgdesk" src="images/books/mattRidley.jpg" alt="">
+                <div class="new">new</div>
+                <div class="productcontentdesk">
+                    <p class="title">How Innovation Works by Matt Ridley</p>
+
+                    <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit.
+                    </p>
+                    <p class="price">&#8358 1,500</p>
+                    <a class="addtocartdesk" href="">Add to cart</a>
+                </div>
+            </div>
+
+            <!-- </div> -->
+
+        </div>
+
+        <!-- Finished Hero 2 Desk -->
+
+
+
+        <!-- Start Hero 3 Desk -->
+
+        <div class="hero2desk hero container">
+
+            <div>
+                <h3>Explore other books</h3>
+                <div class="optionsflex">
+                    <button class="options1 options" id="featureddeskbtn">Featured</button>
+                    <button class="options" id="othersdeskbtn">Other Book</button>
+                </div>
+            </div>
+
+            <!-- books -->
+
+            <!-- featured books cont desk -->
+
+            <div class="featuredbookscontdesk animate__animated" id="featuredbookscontdesk">
+
+                <!--book1-->
+                <div class="prodctcardcontdesk">
+                    <img class="imgdesk" src="images/books/morganhousel.jpg" alt="">
+                    <div class="new">new</div>
+                    <div class="productcontentdesk">
+                        <p class="title">The Psychology of Money -- Morgan Housel</p>
+
+                        <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit
+                            amet
+                            consectetur, adipisicing elit.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                            consectetur,
+                            adipisicing elit.
+                        </p>
+                        <p class="price">&#8358 3,500</p>
+                        <a class="addtocartdesk" href="">Add to cart</a>
+                    </div>
+                </div>
+
+                <!--book1 -->
+
+                <!--book2-->
+
+                <div class="prodctcardcontdesk">
+                    <img class="imgdesk" src="images/books/mattRidley.jpg" alt="">
+                    <div class="new">new</div>
+                    <div class="productcontentdesk">
+                        <p class="title">How Innovation Works -- Matt Ridley</p>
+
+                        <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit
+                            amet
+                            consectetur, adipisicing elit.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                            consectetur,
+                            adipisicing elit.
+                        </p>
+                        <p class="price">&#8358 1,500</p>
+                        <a class="addtocartdesk" href="">Add to cart</a>
+                    </div>
+                </div>
+
+                <!--book2 -->
+            </div>
+
+
+            <!-- otherbooks cont desk -->
+            <div class="otherbookscontdesk animate__animated disoff" id="otherbookscontdesk">
+
+
+                <!--book2-->
+
+                <div class="prodctcardcontdesk">
+                    <img class="imgdesk" src="images/books/danielkahneman.jpg" alt="">
+                    <div class="new">new</div>
+                    <div class="productcontentdesk">
+                        <p class="title">Think Fast And Slow -- Daniel Kahneman</p>
+
+                        <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit
+                            amet
+                            consectetur, adipisicing elit.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                            consectetur,
+                            adipisicing elit.
+                        </p>
+                        <p class="price">&#8358 2,000</p>
+                        <a class="addtocartdesk" href="">Add to cart</a>
+                    </div>
+                </div>
+
+                <!--book2 -->
+
+                <!--book1-->
+
+                <div class="prodctcardcontdesk">
+                    <img class="imgdesk" src="images/books/charlesduhigg.jpg" alt="">
+                    <div class="new">new</div>
+                    <div class="productcontentdesk">
+                        <p class="title">The Power Of Habits -- charles Duhigg/p>
+
+                        <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit
+                            amet
+                            consectetur, adipisicing elit.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet
+                            consectetur,
+                            adipisicing elit.
+                        </p>
+                        <p class="price">&#8358 2,500</p>
+                        <a class="addtocartdesk" href="">Add to cart</a>
+                    </div>
+                </div>
+
+                <!--book1 -->
+            </div>
+
+        </div>
+
+        <!-- Finished Hero3Desk -->
+
+
+        <!-- hero4desk start-->
+
+        <div class="hero4 ">
+
+            <div class="container">
+                <h3>Choose a category to explore</h3>
+
+                <div class="Categories">
+                    <a href="pages/product.html#financebtn" class="catoptions">Finance</a>
+                    <a href="pages/product.html#innovationbtn" class="catoptions">Innovation</a>
+                    <a href="pages/product.html#lifestylebtn" class="catoptions">Lifestyle</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Finished hero4Desk -->
+
+        <!-- footer -->
+
+        <div class="footer hero">
+
+            <div class="container">
+                <div class="footerlinks">
+                    <a href="#" class="flink">About us</a>
+                    <a href="#" class="flink">Contact us</a>
+                </div>
+
+                <div class="social">
+
+                    <a  href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+
+                    <a  href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+
+                    <a href="https://www.instagram.com"><i class="fab fa-instagram-square"></i></a>
+
+                </div>
+                <div class="footerLinks">
+                    <a href="pages/terms.html" class="fterms">Terms of Service</a>
+                    <a href="pages/terms.html" class="fterms">Privacy and policy</a>
+                </div>
+            </div>
+        </div>
+        <!-- Finished footer -->
+
+
+    </div>
+
+
+
+
+
+    <!-- Nav bar End -->
+
+
+    <!-- <script src="bootstrap/js/bootstrap.js"></script> -->
+
+
+    <script src="js/scroll.js"></script>
+
+</body>
+
+</html>

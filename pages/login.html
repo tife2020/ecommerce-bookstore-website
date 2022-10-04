@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <!-- <link href="../fontawesome/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet"> -->
+    <script src="https://kit.fontawesome.com/b5d68417cd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- <script src="../js/project.js"></script> -->
+    <script src="../js/login.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+</head>
+
+<body class="animate__animated animate__fadeInUp">
+<div class="mobile ">
+
+    <!-- Nav bar Start-->
+    <div class="containerNavbar dison" id='containerNavbar'>
+
+        <div class="navbar">
+            <div><a href="../index.html"><img src="../images/1x/Asset4.png" alt="" class="logo"></a></div>
+
+            <div class="mobilenavlinksright" id="categoriespie">
+                <div>
+                    <div class="thover">All Categories <i class="fas fa-caret-down"></i></div>
+                </div>
+
+                <div class="menu" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Finished Nav bar-->
+
+    <!-- pie menu -->
+    <div class="piemenu disoff" id="piemenu">
+
+        <div class="top " id="hamburgerclose"><i class="fas fa-times "></i></div>
+        <div class="">
+            <a class="pielinks" href="#">Login</a>
+            <a class="pielinks" href="../pages/signup.html">Sign up</a>
+            <a class="pielinks" href="../index.html#featured">Featured books</a>
+            <a class="pielinks" href="../index.html#otherbooks">Other books</a>
+        </div>
+        <h3 class="pieh3">Unlimited access to 100+ Books. New Books added every month.</h3>
+        <div class="signuppiecont">
+
+            <a class="signuppie pulse" href="signup.html">Sign up</a>
+        </div>
+
+    </div>
+    <!-- Finished pie menu -->
+
+    <!-- category drop down -->
+    <div class="categoriespie disoff" id="categories">
+        <div class="topcat" id="categoriesclose"><i class="fas fa-times"></i></div>
+
+        <a href="product.html#financebtn" class="catpieoptions">Finance</a>
+        <a href="product.html#innovationbtn" class="catpieoptions">Innovation</a>
+        <a href="product.html#lifestylebtn" class="catpieoptions">Lifestyle</a>
+    </div>
+    <!-- Finished category drop down -->
+</div>
+
+<div class="desktop">
+
+    <!-- Navber starts -->
+
+    <div class="navbarcontdesk">
+        <div class="navbarDesk">
+
+            <div><a href="../index.html"><img src="../images/1x/Asset 3.png" alt="" class="logodesk"></a></div>
+
+            <div class="navlinksmid">
+                <button class="allcat mid thover" id="catcatbtn">All Categories <i class="fas fa-caret-down"></i></button>
+                <div class="hero4cat animate__animated disoff" id="hero4cat">
+
+                    <div class="Categories">
+                      <a href="product.html#financebtn" class="catoptionscat">Finance</a>
+                      <a href="product.html#innovationbtn" class="catoptionscat">Innovation</a>
+                      <a href="product.html#lifestylebtn" class="catoptionscat">Lifestyle</a>
+                    </div>
+                    
+                </div>
+                <div class="mid thover"><i class="fas fa-search"></i>Search</div>
+            </div>
+
+            <div class="navlinksright">
+                <a href="signup.html" class="right thover">Sign up</a>
+                <a href="login.html" class="right thover">Login in</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Finished Navber  -->
+</div>
+    <div class="containerlog">
+        <p>Log in</p>
+        <form action="product.html" class="formcont">
+            <input class="tp" type="email" name="email" id="emaillog" placeholder="Enter email address">
+            <input class="tp" type="password" name="password" id="passwordlog" placeholder="Enter password">
+            <input type="submit" value="Log in" id="loginbtn">
+        <p>Don't not have an account? <a href="signup.html">Sign up</a></p>
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>
